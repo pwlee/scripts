@@ -110,10 +110,10 @@ branch_list = BranchList.new(branches)
 
 while true
   system "clear"
-  puts "-------------------------------------------------------------------".yellow
+  puts "----------------------------------------------------------------------------------".yellow
   puts "Select a branch:".yellow
-  puts "(w/s or up/down to move, a/d or left/right to mark, q/x to quit)".yellow
-  puts "-------------------------------------------------------------------".yellow
+  puts "(w/s or up/down to move, a/d or left/right to mark, space to confirm, q/x to quit)".yellow
+  puts "----------------------------------------------------------------------------------".yellow
 
   branch_list.render
 
